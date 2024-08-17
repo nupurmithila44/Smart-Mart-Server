@@ -69,6 +69,7 @@ async function run() {
       });
 
  //get filtered products for filtering and pagination
+
  app.get("/products", async (req, res) => {
     const page = parseFloat(req.query.page);
     const size = parseFloat(req.query.size);
